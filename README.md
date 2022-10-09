@@ -6,32 +6,19 @@ Architecture
 
 ├── BadNets      
 │   └── YoutubeFace  
-
-│       ├── 1.RegularTrigger
-
-│   │   │      ├── AILancet
-
-│   │   │      ├── backdoor_model_file
-
-│   │   │      ├── BadNets
-
-│   │   │      └── Unlearning
-
-│       ├── 2.TransparentTrigger
-
-│   │   │      ├── AILancet
-
-│   │   │      ├── backdoor_model_file
-
-│   │   │      ├── BadNets
-
-│   │   │      └── Unlearning
-
-│       └── Datasets
-
-└── TrojanAttack  
-
-    └── VGG-Face
+│       ├── 1.RegularTrigger    
+│   │   │      ├── AILancet   
+│   │   │      ├── backdoor_model_file   
+│   │   │      ├── BadNets    
+│   │   │      └── Unlearning     
+│       ├── 2.TransparentTrigger   
+│   │   │      ├── AILancet   
+│   │   │      ├── backdoor_model_file   
+│   │   │      ├── BadNets   
+│   │   │      └── Unlearning   
+│       └── Datasets   
+└── TrojanAttack     
+    └── VGG-Face   
 	
 	
 #Requirements
