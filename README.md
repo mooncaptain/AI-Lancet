@@ -50,7 +50,7 @@ Pillow==8.4.0
 	3. ./Unlearning/ #For unlearning method, to meausre the model accuracy and the backdoor attack success rate.   
 	    python3 unlearn_model.py    
 
-# train your own backdoor model and evaluate	   
+# Train your own backdoor models and measure them.	   
 	You need delete "#!" in 3 files (train_backdoor_model.py，Restore_trigger.py ，Locate_EIneurons.py )   
   1. BadNets #train the backdoor model   
 	   (Four kinds of triggers(1,2,3,4)，target_label is the target backdoored class）   
