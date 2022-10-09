@@ -4,8 +4,7 @@ AI-Lancet, backdoor removal
 
 Architecture
 
-├── BadNets 
-
+├── BadNets      
 │   └── YoutubeFace  
 
 │       ├── 1.RegularTrigger
