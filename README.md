@@ -42,15 +42,15 @@ Pillow==8.4.0
 ###BadNets   		
 
 ###YoutubeFace--Regular Trigger   
-    #run our results   
-	1. ./BadNets/    #For original backdoor model, to measure the model accuracy and the backdoor attack success rate.   
+    #Run our results   
+	1. ./BadNets/    #For the original backdoor model, to measure the model accuracy and the backdoor attack success rate.   
 	    python3 model_test.py     
 	2. ./AILancet/   #For the flipped model, to measure the model accuracy and the backdoor attack success rate.   
 	    python3 Neuron_flip.py   
-	3. ./Unlearning/ #For unlearning method, to meausre the model accuracy and the backdoor attack success rate.   
+	3. ./Unlearning/ #For the unlearning method, to meausre the model accuracy and the backdoor attack success rate.   
 	    python3 unlearn_model.py    
 
-# Train your own backdoor models and measure them.	   
+# Train your own backdoor models and measure them with AI-Lancet.	   
 	You need delete "#!" in 3 files (train_backdoor_model.py，Restore_trigger.py ，Locate_EIneurons.py )   
   1. BadNets #train the backdoor model   
 	   (Four kinds of triggers(1,2,3,4)，target_label is the target backdoored class）   
